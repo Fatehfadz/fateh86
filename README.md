@@ -23,7 +23,8 @@
 
 **Step 1: Register VPS IP**
 You must register your VPS IP address to gain installation access permission.
-🔗 **Check / Register here:** `https://raw.githubusercontent.com/Fatehfadz/permission/refs/heads/main/access`
+🔗 **Check / Register here:** 
+https://raw.githubusercontent.com/Fatehfadz/permission/refs/heads/main/access
 
 **Step 2: Run the Main Installer**
 Copy and paste the following command into your VPS terminal:
