@@ -31,11 +31,20 @@ Copy and paste the following command into your VPS terminal:
 ```bash
 apt install -y && apt update -y && apt upgrade -y && wget -q https://github.com/Fatehfadz/fateh86/raw/refs/heads/main/install
 ```
+🆙 UPDATE SCRIPT (Optional)
+To update your system to the latest version, run this update command:
+```
+wget -q https://github.com/Fatehfadz/source/raw/refs/heads/main/update.sh
+```
 
+
+
+------ 
 🔄 OS DOWNGRADE GUIDE (To Ubuntu 20.04)
 Use these commands only if your VPS is running an OS higher than Ubuntu 20.04.
 
 Run the following commands in the terminal:
+
 ```
 wget https://github.com/Fatehfadz/source/raw/refs/heads/main/reinstall.sh
 chmod +x install-ulang
@@ -61,8 +70,4 @@ chmod +x install-ulang-vps
 ./install-ulang-vps
 ```
 
-🆙 UPDATE SCRIPT (Optional)
-To update your system to the latest version, run this update command:
-```
-wget -q https://github.com/Fatehfadz/source/raw/refs/heads/main/update.sh
-```
+
