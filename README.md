@@ -31,6 +31,15 @@ Copy and paste the following command into your VPS terminal:
 ```bash
 apt install -y && apt update -y && apt upgrade -y && wget -q https://github.com/Fatehfadz/fateh86/raw/refs/heads/main/install
 ```
+
+Step 3: Domain Configuration
+During the installation process, the script will ask you to enter a domain. Ensure you enter a domain that has been pointed to your VPS IP via Cloudflare.
+
+Step 4: Wait for the Process to Complete
+Let the installation process run until it finishes. Do not disconnect during the installation, or the process will restart from the beginning.
+
+Note: If the installation screen prompts you for a reboot, simply press the ENTER key.
+
 🆙 UPDATE SCRIPT (Optional)
 To update your system to the latest version, run this update command:
 ```
@@ -70,4 +79,7 @@ chmod +x install-ulang-vps
 ./install-ulang-vps
 ```
 
+📺 VIDEO TUTORIAL
+For a complete step-by-step tutorial, you can watch the full video on YouTube:
 
+Video Link: https://youtu.be/hW1-10tr25I
