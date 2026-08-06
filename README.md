@@ -29,9 +29,7 @@ https://github.com/Fatehfadz/permission/blob/main/access
 **Step 2: Run the Main Installer**
 Copy and paste the following command into your VPS terminal:
 ```bash
-apt install -y && apt update -y && apt upgrade -y && wget -q https://github.com/Fatehfadz/fateh86/raw/refs/heads/main/install
-chmod +x install
-./install
+apt install -y && apt update -y && apt upgrade -y && wget -q https://github.com/Fatehfadz/fateh86/raw/refs/heads/main/install && chmod +x install && ./install
 ```
 
 **Step 3: Domain Configuration**
