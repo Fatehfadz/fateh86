@@ -79,7 +79,19 @@ chmod +x install-ulang-vps
 ./install-ulang-vps
 ```
 
-📺 VIDEO TUTORIAL
+## 📺 VIDEO TUTORIAL
+
 For a complete step-by-step tutorial, you can watch the full video on YouTube:
 
-Video Link: https://youtu.be/hW1-10tr25I
+<div align="center">
+  <a href="https://youtu.be/hW1-10tr25I">
+    <img src="https://img.youtube.com/vi/hW1-10tr25I/maxresdefault.jpg" alt="Tutorial Install Script VPS" width="600">
+  </a>
+</div>
+
+> 💡 **Tip:** Click the image above to open and watch the tutorial directly on YouTube!
+
+---
+<div align="center">
+  <p>Protected & Maintained by <b>Fatehfadz</b> | © 2026</p>
+</div>
