@@ -43,9 +43,7 @@ Note: If the installation screen prompts you for a reboot, simply press the ENTE
 🆙 UPDATE SCRIPT (Optional)
 To update your system to the latest version, run this update command:
 ```
-wget -q https://github.com/Fatehfadz/source/raw/refs/heads/main/update.sh
-&& chmod +x update.sh
-&& ./update.sh
+wget -q https://github.com/Fatehfadz/source/raw/refs/heads/main/update.sh && chmod +x update.sh && ./update.sh
 ```
 
 
