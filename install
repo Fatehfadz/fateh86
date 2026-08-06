@@ -160,7 +160,7 @@ fi
 # SATPAM: VALIDASI IP KETAT SEBELUM INSTALL
 # ==========================================
 MYIP=$(curl -sS ipv4.icanhazip.com)
-izinsc="https://raw.githubusercontent.com/hokagelegend9999/ijin/main/alpha"
+izinsc="https://raw.githubusercontent.com/Fatehfadz/permission/refs/heads/main/access"
 
 rm -f /usr/bin/user
 rm -f /usr/bin/e
@@ -201,7 +201,7 @@ fi
 apt install ruby chrony wondershaper -y
 gem install lolcat
 
-REPO="https://raw.githubusercontent.com/hokagelegend9999/alpha.v2/refs/heads/main/"
+REPO="https://raw.githubusercontent.com/Fatehfadz/source/refs/heads/main/"
 start=$(date +%s)
 
 secs_to_human() {
@@ -324,7 +324,7 @@ function install_xray() {
     wget -O /etc/nginx/conf.d/xray.conf "${REPO}config/xray.conf" >/dev/null 2>&1
     sed -i "s/xxx/${domain}/g" /etc/haproxy/haproxy.cfg
     sed -i "s/xxx/${domain}/g" /etc/nginx/conf.d/xray.conf
-    sudo curl -fsSL https://raw.githubusercontent.com/hokagelegend9999/alpha.v2/refs/heads/main/config/nginx.conf -o /etc/nginx/nginx.conf
+    sudo curl -fsSL https://raw.githubusercontent.com/Fatehfadz/source/refs/heads/main/config/nginx.conf -o /etc/nginx/nginx.conf
     cat /etc/xray/xray.crt /etc/xray/xray.key | tee /etc/haproxy/hap.pem
 
     chmod +x /etc/systemd/system/runn.service
@@ -409,7 +409,7 @@ END
 
 function udp_mini(){
     print_install "Memasang Service Limit IP & Quota"
-    wget -q https://raw.githubusercontent.com/hokagelegend9999/alpha.v2/refs/heads/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
+    wget -q https://raw.githubusercontent.com/Fatehfadz/source/refs/heads/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
     mkdir -p /usr/local/kyt/
     wget -q -O /usr/local/kyt/udp-mini "${REPO}files/udp-mini"
     chmod +x /usr/local/kyt/udp-mini
@@ -439,7 +439,7 @@ function ins_dropbear(){
     # Menghapus penutup output (dev/null) sementara untuk memastikan proses instalasi berjalan
     apt-get install dropbear -y
     
-    wget -q -O /etc/default/dropbear https://raw.githubusercontent.com/hokagelegend9999/alpha.v2/refs/heads/main/config/dropbear.conf
+    wget -q -O /etc/default/dropbear https://raw.githubusercontent.com/Fatehfadz/source/refs/heads/main/config/dropbear.conf
     chmod +x /etc/default/dropbear
     
     # Menggunakan systemctl sebagai standar Ubuntu/Debian modern
@@ -466,7 +466,7 @@ function ins_vnstat(){
 
 function ins_openvpn(){
     print_install "Menginstall OpenVPN"
-    wget -q -O openvpn https://raw.githubusercontent.com/hokagelegend9999/alpha.v2/refs/heads/main/config/openvpn
+    wget -q -O openvpn https://raw.githubusercontent.com/Fatehfadz/source/refs/heads/main/config/openvpn
     chmod +x openvpn && ./openvpn
     /etc/init.d/openvpn restart
 }
@@ -525,7 +525,7 @@ function ins_banner(){
     mkdir -p /usr/local/ddos
     echo "Banner /etc/kyt.txt" >>/etc/ssh/sshd_config
     sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/kyt.txt"@g' /etc/default/dropbear
-    wget -q -O /etc/kyt.txt https://raw.githubusercontent.com/hokagelegend9999/alpha.v2/refs/heads/main/files/issue.net
+    wget -q -O /etc/kyt.txt https://raw.githubusercontent.com/Fatehfadz/source/refs/heads/main/files/issue.net
 }
 
 function ins_epro(){
