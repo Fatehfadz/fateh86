@@ -32,10 +32,10 @@ Copy and paste the following command into your VPS terminal:
 apt install -y && apt update -y && apt upgrade -y && wget -q https://github.com/Fatehfadz/fateh86/raw/refs/heads/main/install
 ```
 
-**Step 3: Domain Configuration
+**Step 3: Domain Configuration**
 During the installation process, the script will ask you to enter a domain. Ensure you enter a domain that has been pointed to your VPS IP via Cloudflare.
 
-**Step 4: Wait for the Process to Complete
+**Step 4: Wait for the Process to Complete**
 Let the installation process run until it finishes. Do not disconnect during the installation, or the process will restart from the beginning.
 
 Note: If the installation screen prompts you for a reboot, simply press the ENTER key.
