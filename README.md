@@ -1,39 +1,67 @@
-HOW TO INSTALL SCRIPT FATEH 96
-1. FIRST REGISTER THE VPS IP THAT WE WILL INSTALL IN THE FOLLOWING LINK:
-=== https://raw.githubusercontent.com/Fatehfadz/permission/refs/heads/main/access
+<div align="center">
+  
+  <img src="https://img.icons8.com/color/120/000000/server.png" alt="Server Logo" width="100"/>
 
-2. Copy and paste the following installer script into the VPS where you want to perform the installation:
+  # 👑 SCRIPT FATEH 96
+  
+  **Premium Auto-Installer Script for Virtual Private Servers**
+
+  ![OS Requirement](https://img.shields.io/badge/OS-Ubuntu_20.04-orange?style=for-the-badge&logo=ubuntu)
+  ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+  ![Version](https://img.shields.io/badge/Version-Premium-blue?style=for-the-badge)
+
+</div>
+
+---
+
+## ⚠️ IMPORTANT NOTICE: OS VERSION
+> **ATTENTION:** This script is strictly designed for **Ubuntu 20.04**. If your Ubuntu VPS version is higher than 20.04 (e.g., 22.04 or 24.04), you **MUST** downgrade to version 20.04 before installing the main script. Please refer to the Downgrade Guide section below.
+
+---
+
+## 🚀 HOW TO INSTALL SCRIPT FATEH 96
+
+**Step 1: Register VPS IP**
+You must register your VPS IP address to gain installation access permission.
+🔗 **Check / Register here:** `https://raw.githubusercontent.com/Fatehfadz/permission/refs/heads/main/access`
+
+**Step 2: Run the Main Installer**
+Copy and paste the following command into your VPS terminal:
+```bash
+apt install -y && apt update -y && apt upgrade -y && wget -q https://github.com/Fatehfadz/fateh86/raw/refs/heads/main/install
 ```
-apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/Anggabayuwijaya599/installsinggah/refs/heads/main/vpn && chmod +x vpn && ./vpn
-```
-3. Enter the domain that was pointed to Cloudflare during the installation script.
-4. Wait for the installation process to complete. Do not disconnect during installation, as it will restart from the first step.
-If the installation asks for a reboot, press ENTER to reboot.
-5. The installation process is complete and the VPS is ready to use.
 
-=================================If the Ubuntu VPS version is higher than Ubuntu 20.04, you must downgrade to Ubuntu 20.04.========================
+🔄 OS DOWNGRADE GUIDE (To Ubuntu 20.04)
+Use these commands only if your VPS is running an OS higher than Ubuntu 20.04.
 
-Copy and paste the following link to downgrade the VPS to Ubuntu 20.
+Run the following commands in the terminal:
 ```
 wget https://github.com/Fatehfadz/source/raw/refs/heads/main/reinstall.sh
 chmod +x install-ulang
 ./install-ulang
 ```
-Select option 2 (Ubuntu).
-Select version 1 (20.04).
-When prompted, type 'Y' (and press Enter).
-Wait for the process to complete (approximately 10 minutes).
-Once finished, the system will be running Ubuntu 20.04.
-Rebuild script:
+Instructions When the Script is Running:
+
+Select Option: 2 (Ubuntu)
+
+Select Version: 1 (20.04)
+
+Confirmation: Type Y and press Enter.
+
+Wait for the downgrade process to complete (it takes approximately 10 minutes). Once finished, your system will be running a clean installation of Ubuntu 20.04.
+
+🛠️ REBUILD SCRIPT UTILITY
+If you need a rebuild utility after reinstalling, use the following command sequence:
 ```
 cd root
 rm install-ulang-vps
-wget https://github.com/hokagelegend9999/genom/raw/refs/heads/main/install-ulang-vps
+wget [https://github.com/hokagelegend9999/genom/raw/refs/heads/main/install-ulang-vps 
 chmod +x install-ulang-vps
 ./install-ulang-vps
 ```
 
-UPDATE SCRIPT (OPTIONAL):
+🆙 UPDATE SCRIPT (Optional)
+To update your system to the latest version, run this update command:
 ```
-wget -q https://raw.githubusercontent.com/Anggabayuwijaya599/SinggahVpn/refs/heads/main/update.sh && chmod +x update.sh && ./update.sh
+wget -q https://github.com/Fatehfadz/source/raw/refs/heads/main/update.sh
 ```
